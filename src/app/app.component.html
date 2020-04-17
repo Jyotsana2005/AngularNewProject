@@ -1,0 +1,51 @@
+<!-- <p>{{title}}</p> -->
+
+<!-- when u want to write html code in ts file
+ templete: "<app-selector></app-selector>
+u can write html code in between selector
+<app-selector></app-selector>" -->
+
+<!-- when you want to write css in ts file also remove styleurl
+style:[`h3{
+    color:blue`] -->
+
+    <!-- <h1>app-success-alert</h1>
+    <h1>app-warning-alert</h1> -->
+    <!-- <input type="text" [(ngModel)]="username"/>two way binding  -->
+
+    <!-- {{username}}string interpolation for display data -->
+
+    <!-- <button class="btn btn-primary" [disabled]="username===''" (click)="username=''">Click</button> -->
+
+    <!-- Project 1 -->
+<!-- <app-header (featureSelected)="onNavigate($event)"></app-header>
+<app-recipes *ngIf="loadedFeature==='recipe'"></app-recipes>
+<app-shopping-list *ngIf="loadedFeature!=='recipe'"></app-shopping-list> -->
+
+
+
+<!-- <app-recipe-list></app-recipe-list> -->
+<!-- <app-recipe-detail></app-recipe-detail> -->
+<!-- <app-recipe-item></app-recipe-item> -->
+<!-- <app-shopping-edit></app-shopping-edit> -->
+<!-- <app-shopping-item></app-shopping-item> -->
+
+<!-- Project 2 Assighnment-->
+<!-- <app-game-control (intervalFired)="onIntervalFired($event)"></app-game-control>
+<app-odd *ngFor="let oddNumber of oddNumbers" [number]="oddNumber"></app-odd>
+<app-even *ngFor="let evenNumber of evenNumbers" [number]="evenNumber"></app-even> -->
+
+
+<!-- Mean stack project -->
+<app-header></app-header>
+<main>
+
+  <!-- <app-post-create ></app-post-create> -->
+  <!-- (postCreated)="onPostAdded($event)" -->
+
+  <!-- <app-post-list ></app-post-list> -->
+   <!-- [posts]="storedPosts" -->
+   <router-outlet></router-outlet>
+</main>
+
+<app-parent [myInputValue]="myInput" (myOutPutValue)="getData($event)" ></app-parent>
