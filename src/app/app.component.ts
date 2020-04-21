@@ -11,11 +11,11 @@ import { from } from 'rxjs';
 // OgIOUkZAoyzsZYXZ
 export class AppComponent {
 
-  myInput="hello i am your parent";
+  // myInput="hello i am your parent";
 
-  getData(value){
-    console.log(value)
-  }
+  // getData(value){
+  //   console.log(value)
+  // }
 
 
 //   storedPosts:Post[]=[]
